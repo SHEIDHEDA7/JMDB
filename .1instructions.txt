@@ -1,0 +1,32 @@
+- Packages- 
+    dio - To make http calls
+    flutter_rating_bar - Display Star rating
+    page_indicator - for dotted indication of page or card
+    google_nav_bar - bottom navigation bar
+    youtube_player_flutter - Import trailer from youtube
+    flutter_dotenv - create .env file and store api key
+    hive - NoSql db to store watch list
+    hive_flutter - ||
+    hive_generator - Hive type adapted
+    build_runner - ||
+
+1- Make main.dart and link to home screen
+2- Make .env file and store the API key and add the file in pubspec.yaml
+3- Make a models folder having a separate movie and TV models folder
+4- Create json_model and details_model file for each movie and tv folder 
+4- Make separate file in models for common model like genre, trailers
+5- Make a file services having a file which has http requests
+6- After everything make home screen
+7- Make Movie, Tv shows and watchlist screen
+8- Now for each functionality like now playing, upcoming, popular etc make separate widget folder in lib called movie/tv_widget
+9- In order to display genre list create 3 widgets:
+    - Get genre list from API
+    - Display genre list 
+    - Retrieve movies based on genre
+10- Then make other sections like popular, top rated and upcoming
+11- Make a movie details page, When any movie tile is clicked it should go to that page
+12- Make movie_info page for details page
+13- Make similar movies page to add in details page
+14- And just do the same for tv shows
+15- Make Hive models and initialized
+16- Also make watchlist page
